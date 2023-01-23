@@ -6,13 +6,54 @@
 
 /* DEBUG */
 
+.debug-logo {
+    background-color: #daa520;
+}
+
+.debug-ul {
+    background-color: #daa520;
+}
+
+.debug-login {
+    background-color: #daa520;
+}
+
 /* DEBUG */
 
 
 /* HEADER */
+header > div {
+    background-color: #add8e6;
+}
+.row1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 360px;
+
+}
+
+
+
+.logo {
+    border-style: dashed;
+    width: 20%;
+}
+
+
 .ul {
     list-style: none;
+    border-style: dashed;
+    width: 60%;
+
+
 }
+
+.login {
+    border-style: dashed;
+    width: 20%;
+}
+
 
 /* HEADER */
 
