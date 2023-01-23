@@ -25,13 +25,16 @@
 header > section {
     background-color: #add8e6;
 }
-.row1 {
+section {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    margin: 20px 360px;
+}
+.row1 {
+    display: flex;
+    justify-content: space-between;
     min-height: 70px;
     align-items: center;
+    width: 1200px;
 
 }
 
@@ -39,32 +42,32 @@ header > section {
 
 .logo {
     border-style: dashed;
-    width: 20%;
     min-height: 40px;
     display: flex;
     align-items: center;
     padding-left: 10px;
+    width: 20%;
 }
 
 
 .ul {
     list-style: none;
     border-style: dashed;
-    width: 60%;
     display: flex;
     justify-content: center;
     min-height: 40px;
     align-items: center;
+    flex-grow: 1;
 }
 
 .login {
     border-style: dashed;
-    width: 20%;
     min-height: 40px;
     display: flex;
     justify-content: end;
     align-items: center;
     padding-right: 10px;
+    width: 20%;
 
 }
 
