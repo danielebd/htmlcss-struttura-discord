@@ -25,7 +25,7 @@
 header > section {
     background-color: #add8e6;
 }
-section {
+.section1 {
     display: flex;
     justify-content: center;
 }
@@ -42,6 +42,7 @@ section {
 
 .logo {
     border-style: dashed;
+    border-width: 1px;
     min-height: 40px;
     display: flex;
     align-items: center;
@@ -53,6 +54,7 @@ section {
 .ul {
     list-style: none;
     border-style: dashed;
+    border-width: 1px;
     display: flex;
     justify-content: center;
     min-height: 40px;
@@ -62,6 +64,7 @@ section {
 
 .login {
     border-style: dashed;
+    border-width: 1px;
     min-height: 40px;
     display: flex;
     justify-content: end;
@@ -74,8 +77,25 @@ section {
 .header2 {
     background-color: #00008b;
     height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
+
+#box1 {
+    min-height: 400px;
+    background-color: #ee82ee;
+    width: 900px;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+.div1 {
+    height: 3px;
+    background-color: aqua;
+}
 
 /* HEADER */
 
