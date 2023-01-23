@@ -22,13 +22,15 @@
 
 
 /* HEADER */
-header > section {
+header>section {
     background-color: #add8e6;
 }
+
 .section1 {
     display: flex;
     justify-content: center;
 }
+
 .row1 {
     display: flex;
     justify-content: space-between;
@@ -40,7 +42,7 @@ header > section {
 
 
 
-.logo {
+.logo1 {
     border-style: dashed;
     border-width: 1px;
     min-height: 40px;
@@ -80,7 +82,7 @@ header > section {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 
@@ -102,9 +104,146 @@ header > section {
 
 /* MAIN */
 
+.container1 {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container2 {
+    height: 600px;
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 {
+    height: 1000px;
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigbox1 {
+    width: 1200px;
+    display: flex;
+}
+
+.bigbox2 {
+    width: 1200px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bigbox3 {
+    display: flex;
+    justify-content: center;
+    min-height: 900px;
+    width: 1200px;
+    background-color: #228b22;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+.boxblue {
+    min-height: 500px;
+    background-color: #1e90ff;
+    width: 60%;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+.boxpurple {
+    min-height: 500px;
+    background-color: #ffc0cb;
+    width: 40%;
+    border-style: dashed;
+    border-width: 1px;
+}
+
+
 /* MAIN */
 
 
 /* FOOTER */
+footer {
+    background-color: #23272a;
+}
+
+.container4 {
+    height: 630px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigbox4 {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxred {
+    min-height: 580px;
+    width: 40%;
+    background-color: #f08080;
+    border-style: dashed;
+    border-width: 1px;
+
+}
+
+.boxacqua {
+    min-height: 580px;
+    width: 15%;
+    background-color: #20b2aa;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: white;
+}
+
+.section2 {
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.row2 {
+    height: 80px;
+    background-color: #7fffd4;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo2 {
+   height: 35px;
+   width: 70px;
+   background-color: #ffb6c1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-style: dashed;
+   border-width: 1px;
+}
+
+#bottone {
+    width: 90px; 
+}
+
+.div2 {
+    height: 1px;
+    background-color: white;
+}
+
+
+
 
 /* FOOTER */
